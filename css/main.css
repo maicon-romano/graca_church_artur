@@ -7,11 +7,15 @@
   position: relative;
   top: 0px;
   width: 100vw;
-  height: 80vh;
+  height: 55vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.logo img {
+  height: 55vh;
 }
 
 .container-button {
@@ -25,9 +29,9 @@
 
 .botao {
   background: linear-gradient(to right, #5733b9, #4a2b9e);
-  padding: 20px 30px;
+  padding: 10px 30px;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: 600;
@@ -58,7 +62,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 300px;
+  margin-top: -20px;
+  height: 30vh;
 }
 
 .contribuir h1 {
